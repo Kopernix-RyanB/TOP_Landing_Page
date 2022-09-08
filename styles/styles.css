@@ -219,3 +219,18 @@ figure {
 			margin-right: 15px;
 			font-weight: bold;
 		}
+
+
+
+/* ================================================== */
+/* 		FOOTER SECTION 								  */
+/* ================================================== */
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1F2937;
+	color:#e5e7eb;
+	height: 100px;
+}
