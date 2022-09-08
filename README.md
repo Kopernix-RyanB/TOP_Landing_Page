@@ -31,3 +31,8 @@ There is also a quick access button for signing up.
 This section can be used to place some random information and some pictures about the topic of the website, to appeal to the user.
 
 Each card holds a place for a picture and a brief description of the picture.
+
+
+### Sign-up Section
+
+When the user reaches the end of the page, he should be reminded to sign up.
