@@ -4,9 +4,14 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	text-decoration: none;
-	outline: none;
-	border: none;
+	text-decoration: none;	
+	
+	/*border: 0.25px dotted red;*/
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
 	font-family: Roboto, Times, serif;
 }
 
@@ -16,14 +21,16 @@
 
 header {
 	background-color: #1F2937;
-	height: 60px;
+	padding: 20px 220px 130px;
+	display: flex;
+	flex-direction: column;	
+	gap: 80px;	
 }
 
 .navbar {	
 	display: flex;
-	justify-content: center;
-	padding-top: 15px;
-	gap: 850px;		
+	justify-content: space-between;
+	align-items: baseline;			
 }
 
 	.logo {
@@ -41,3 +48,45 @@ header {
 		a:visited {
 			color: #e5e7eb;
 		}
+
+/* ================================================== */
+/* 		HERO SECTION 								  */
+/* ================================================== */
+
+.hero {
+	display: flex;
+	align-items: center;	
+	gap: 0 100px;		
+}
+
+	.hero-sec-text {
+		display: flex;
+		flex-direction: column;
+		flex: 1 0 0px;
+		gap: 20px;
+	}
+
+		.hero h1 {
+			font-size: 48px;
+			font-weight: bolder;
+			color:#f9faf8;
+		}
+
+		.hero p, .hero-quote {
+			font-size: 18px;
+			color: #e5e7eb;
+		}
+
+	.hero-quote {
+		background-color: grey;
+		flex: 1 0 0px;
+		text-align: center;	
+		padding: 10%;
+	}
+
+	button {
+   		padding: 7px 1em;
+    	width: 120px;
+    	background-color: #3882F6;
+    	border-radius: 8px;
+	}
